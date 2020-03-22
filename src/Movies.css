@@ -1,0 +1,42 @@
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+.alinearBotones {
+    display: flex;
+    justify-content: space-around;
+}
+.span {
+    color: rgb(0, 122, 96);
+    font-weight: bold;
+}
+.spaceAround {
+    justify-content: space-around;
+}
+.card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 18px 25px 42px -13px rgba(8, 40, 43, 0.74);
+    -moz-box-shadow: 18px 25px 42px -13px rgba(8, 40, 43, 0.74);
+    box-shadow: 18px 25px 42px -13px rgba(8, 40, 43, 0.74);
+}
+.imagenPeli {
+    width: 219px !important;
+    align-self: center;
+    margin-top: 20px;
+}
+.generoPeli{
+    background-color: rgb(0, 122, 96);
+    padding: 3px;
+    margin: 10px 2px 0 2px;
+    color: white;
+    border-radius: 2px;
+}
+.flotante {
+    position: fixed;
+    bottom: 20px;
+}
