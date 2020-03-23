@@ -54,7 +54,16 @@ function About() {
             <p>Hooks son una nueva característica en React 16.8. Estos te permiten usar el estado y otras características de React sin escribir una clase.</p>
             <p>Con Hooks puedes dividir un componente en pequeñas funciones teniendo en cuenta las partes que están relacionadas y no los métodos de ciclo de vida.</p>
             <p>En resumen...¿Cómo funciona?</p>
-            <p>Llamas al useState dentro de tu componente y le añades un estado.  React preserva el estado entre todas las acciones que se están reprocesando y useState retorna el valor del estado actual  y la función que te permite actualizar el valor. Entonces tu puedes llamar a la función desde cualquier sitio.</p>
+            <p>Llamas al useState dentro de tu componente y le añades un estado.  React preserva el estado entre todas las acciones que se están reprocesando y useState retorna el valor del estado actual  y la función que te permite actualizar el valor. Puedes llamar a la función desde cualquier sitio.</p>
+             < p > ¿Qué tiene de nuevo ?</p>
+            <ul>
+                <li>
+                    Dejamos de lado los componentes de clase(por el momento son compatibles).Las clases no minifican tan bien como las funciones, esto significa que nuestro código ocupará más.La diferencia con un solo componente puede no ser relevante, pero si pasamos toda nuestra aplicación a funciones, puede marcar la diferencia.
+                </li>
+                <li>
+                    Podremos crear nuestros propios hooks(Custom Hooks) de forma que ganaremos lo mejor de los High Order Components y las Render Props, sin necesidad de complicar nuestro componente y manteniendo la programación declarativa...¡Y son reusables!
+                </li>
+            </ul>
             < div className = "row justifyCenter" >
                 <img src={require('./ejemploHooks.png')} alt="Ejemplo de Hooks" style={{ width: "100%" }}></img>
             </div>
